@@ -7,7 +7,6 @@ License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://himi.org/wmacpi/download/%{name}-%{version}.tar.bz2
 # Source0-md5:	11fbbcbf31e14f36495b5a945ba778dd
-# Source0-size:	27912
 Source1:	%{name}.desktop
 URL:		http://himi.org/wmacpi/
 BuildRequires:	XFree86-devel
@@ -31,7 +30,10 @@ innymi udoskonaleniami.
 %setup -q
 
 %build
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CFLAGS="%{rpmcflags} -I/usr/X11R6/include" \
+	LDFLAGS="%{rpmldflags} -L/usr/X11R6/%{_lib} -lX11 -lXpm -lXext -ldockapp"
 
 %install
 rm -rf $RPM_BUILD_ROOT
