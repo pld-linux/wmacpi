@@ -1,12 +1,12 @@
 Summary:	A battery monitor dockapp for ACPI based systems
 Summary(pl):	Dokowalny monitor baterii dla systemów opartych o ACPI
 Name:		wmacpi
-Version:	2.0
+Version:	2.1
 Release:	1
 License:	GPL v2
 Group:		X11/Window Managers/Tools
 Source0:	http://himi.org/wmacpi/download/%{name}-%{version}.tar.bz2
-# Source0-md5:	73cea5d58607f027fc0213d38ba973c2
+# Source0-md5:	11fbbcbf31e14f36495b5a945ba778dd
 # Source0-size:	27912
 Source1:	%{name}.desktop
 URL:		http://himi.org/wmacpi/
