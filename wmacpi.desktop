@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=wmacpi
+Comment=ACPI Battery Monitor
+Comment[pl]=ACPI monitor stanu baterii 
+Exec=wmacpi
+Terminal=false
+Type=Application
+Categories=Applet;
+NotShowIn=GNOME;KDE;
+# vi: encoding=utf-8
