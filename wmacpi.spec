@@ -11,7 +11,7 @@ Source0:	http://himi.org/wmacpi/download/%{name}-%{version}.tar.bz2
 Source1:	%{name}.desktop
 URL:		http://himi.org/wmacpi/
 BuildRequires:	XFree86-devel
-BuildRequires:	libdockapp >= 0.4.0
+BuildRequires:	libdockapp-devel >= 0.4.0
 ExclusiveArch:	%{ix86} ppc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
