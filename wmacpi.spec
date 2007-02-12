@@ -1,5 +1,5 @@
 Summary:	A battery monitor dockapp for ACPI based systems
-Summary(pl):	Dokowalny monitor baterii dla systemów opartych o ACPI
+Summary(pl.UTF-8):   Dokowalny monitor baterii dla systemÃ³w opartych o ACPI
 Name:		wmacpi
 Version:	2.1
 Release:	1
@@ -20,10 +20,10 @@ is based on Timecop's wmacpi code and features a proper support for
 multiple batteries, support for modern ACPI kernel versions, and other
 improvements.
 
-%description -l pl
-wmacpi jest dokowalnym monitorem baterii dla systemów opartych o ACPI.
-Jest rozwiniêt± wersj± wmacpi Timecopa i cechuje siê prawid³ow±
-obs³ug± wielu baterii, wsparciem wspó³czesnych wersji ACPI j±dra i
+%description -l pl.UTF-8
+wmacpi jest dokowalnym monitorem baterii dla systemÃ³w opartych o ACPI.
+Jest rozwiniÄ™tÄ… wersjÄ… wmacpi Timecopa i cechuje siÄ™ prawidÅ‚owÄ…
+obsÅ‚ugÄ… wielu baterii, wsparciem wspÃ³Å‚czesnych wersji ACPI jÄ…dra i
 innymi udoskonaleniami.
 
 %prep
