@@ -1,5 +1,5 @@
 Summary:	A battery monitor dockapp for ACPI based systems
-Summary(pl.UTF-8):   Dokowalny monitor baterii dla systemów opartych o ACPI
+Summary(pl.UTF-8):	Dokowalny monitor baterii dla systemów opartych o ACPI
 Name:		wmacpi
 Version:	2.1
 Release:	1
